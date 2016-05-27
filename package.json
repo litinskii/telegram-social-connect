@@ -1,5 +1,6 @@
 {
   "description": "Telegram Bot",
+  "version": "0.0.1",
   "scripts": {
     "start": "supervisor -w ./dist ./dist/index.js",
     "watch": "./node_modules/.bin/babel --watch --source-maps -d ./dist src",
@@ -8,6 +9,8 @@
   },
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
     "node-telegram-bot-api": "git+https://github.com/w-site/node-telegram-bot-api.git"
   },
   "devDependencies": {
