@@ -1,6 +1,6 @@
 {
-  "description": "Telegram Bot",
-  "version": "0.0.1",
+  "description": "Telegram Bot that allow to connect to different social providers ex.: facebook, vkontakte",
+  "version": "1.0.0",
   "scripts": {
     "start": "supervisor -w ./dist ./dist/index.js",
     "watch": "./node_modules/.bin/babel --watch --source-maps -d ./dist src",
